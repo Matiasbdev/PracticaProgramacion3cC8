@@ -5,7 +5,7 @@ namespace EjercicioArrays1
         static void Main(string[] args)
         {
             Console.WriteLine("Ejercicio 1: Fundamentos con Arreglos");
-            int [] numeros = new int [5];
+            int [] numeros = new int [3];
             numeros [0] = 10;
             numeros [1] = 20;
             numeros [2] = 30;
@@ -16,7 +16,7 @@ namespace EjercicioArrays1
             
 //------------------------------------Ejercicio2----------------------------------
 
-int [] numeros = new int [5];
+int [] numeros = new int [4];
             numeros [0] = 6;
             numeros [1] = 60;
             numeros [2] = 40;
@@ -25,7 +25,7 @@ int [] numeros = new int [5];
             Console.WriteLine("Valores en índice 0:" + numeros[0]);
             Console.WriteLine("Valores en índice 1:" + numeros[1]);
             Console.WriteLine("Valores en índice 2:" + numeros[2]);
-            Console.WriteLine("Valores en índice 2:" + numeros[3]);
+            Console.WriteLine("Valores en índice 3:" + numeros[3]);
             
  //-----------------EJERCICIO 3-------------------------------------
 
@@ -44,7 +44,7 @@ int [] numeros = new int [5];
             
       //-----------------EJERCICIO 4-------------------------------------      
 
- int [] numeros = new int [5];
+ int [] numeros = new int [6];
             numeros [0] = 1;
             numeros [1] = 6;
             numeros [2] = 8;
@@ -61,7 +61,7 @@ int [] numeros = new int [5];
 
             //-----------------EJERCICIO 5------------------------------------- 
 
-          int [] numeros = new int [5];
+          int [] numeros = new int [7];
             numeros [0] = 9;
             numeros [1] = 50;
             numeros [2] = 60;
@@ -73,12 +73,11 @@ int [] numeros = new int [5];
             Console.WriteLine("Valores en índice 0:" + numeros[0]);
             Console.WriteLine("Valores en índice 1:" + numeros[1]);
             Console.WriteLine("Valores en índice 2:" + numeros[2]);
-            Console.WriteLine("Valores en índice 2:" + numeros[3]);
-            Console.WriteLine("Valores en índice 2:" + numeros[4]);
-            Console.WriteLine("Valores en índice 2:" + numeros[5]);
-            Console.WriteLine("Valores en índice 2:" + numeros[6]);
-
-           
+            Console.WriteLine("Valores en índice 3:" + numeros[3]);
+            Console.WriteLine("Valores en índice 4:" + numeros[4]);
+            Console.WriteLine("Valores en índice 5:" + numeros[5]);
+            Console.WriteLine("Valores en índice 6:" + numeros[6]);
+          
             
         }
     }

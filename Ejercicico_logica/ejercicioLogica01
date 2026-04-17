@@ -1,0 +1,42 @@
+using System;
+namespace ejercicioLogica01
+{
+    class program
+    
+    {
+        static void Main (string [] args)
+        {
+            
+        string [] nombres  = new string [20]; 
+        int [] edades = new int [20];
+
+        Console.WriteLine("Ingresa el nombre y la edad");
+        for (int i=0; i<20;i++)
+            {
+                Console.WriteLine($"Persona {i+1}:");
+                Console.Write("Nombre: ");
+                nombres[i] = Console.ReadLine();
+                Console.Write("Edad: ");
+                edades[i] = int.Parse(Console.ReadLine());
+
+            }
+             for (int i=0; i<20; i++)
+            {
+                if (edades[i] >30)
+                {
+                    Console.WriteLine("Pasa y a disfrutar: " + nombres [i] + "edad: " + edades[i]);
+                
+                }
+                else
+                {
+                    Console.WriteLine("No puede pasar,vuelva a la casa: " + nombres [i] + "edad: " + edades[i]);
+                }
+
+            }
+
+        }
+
+    }
+
+
+}
